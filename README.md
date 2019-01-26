@@ -1,2 +1,22 @@
-# fitnessedotnetcore
-dummy project to try fitnesse framework for integrated test
+# Ejemplo de uso de FitNesse
+## Paso 1. Clonar este repositorio y compilarlo
+```sh
+$ cd Ro.Fitnesse.Console/
+$ dotnet build
+```
+## Paso 2 Bajar fitnesse server e instalarlo dentro de ./fitnesse
+[http://fitnesse.org/FitNesseDownload](http://fitnesse.org/FitNesseDownload)
+## Paso 3. Ejecutar el server
+```sh
+$ cd fitnesse
+$ chmod +x startcommand.sh
+$ ./startcommand.sh
+```
+## Paso 4. abrir http://localhost:8080/Division y pegar el contenido de
+[division.txt](https://raw.githubusercontent.com/rogithub/fitnessedotnetcore/master/fitnesse/Division.txt)
+
+## Paso 5. En http://localhost:8080/Division?properties seleccionar radio "type: Test", guardar y dar click en test
+
+# Fuentes consultadas
+- https://fitsharp.github.io/FitSharp/RunTestsWithFitnesse.html
+- https://www.stevefenton.co.uk/2013/10/Using-Fitnesse-For-Dot-Net

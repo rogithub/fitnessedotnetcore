@@ -8,7 +8,8 @@ namespace Ro.Fitnesse.Console
         static void Main(string[] args)
         {
             var hw = new HelloWorld();
-            Console.WriteLine(hw.Concatenate());
+            System.Console.WriteLine(hw.Concatenate());
+            System.Console.Read();
         }
     }
 }

@@ -1,7 +1,7 @@
 # Ejemplo de uso de FitNesse
 Para este ejemplo uso dotnet core en linux.
 Deberá ajustar los paths en caso de usar algo diferente.
-En especial noté el archivo division.txt qué usa path a nuget packetes
+En especial note el archivo division.txt qué usa path a nuget packetes
 referenciados al home de mi computadora /home/ro/.nuget/packages/
 
 ## Paso 1. Clonar este repositorio y compilarlo

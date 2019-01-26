@@ -4,7 +4,7 @@ Deberá ajustar los paths en caso de usar algo diferente.
 En especial note el archivo "division.txt" (explicado más abajo),
 que hace referencia a mi "home" directory. /home/ro/.nuget/packages/
 
-## Paso 1. Clonar este repositorio y compilarlo
+## Paso 1. Compilar el dll
 ```sh
 $ cd Ro.Fitnesse.Console/
 $ dotnet build

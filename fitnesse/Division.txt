@@ -1,8 +1,10 @@
+!contents -R2 -g -p -f -h
+!path ../Ro.Fitnesse.Library/bin/Debug/netstandard2.0/Ro.Fitnesse.Library.dll
 !define COMMAND_PATTERN {%m /home/ro/.nuget/packages/fitsharp/2.7.0/lib/netcoreapp2.0/Runner.dll -c suiteconfig.xml %p}
 !define TEST_RUNNER {dotnet}
 !define TEST_SYSTEM {slim}
 
-|eg.Division|
+!|Ro.Fitnesse.Library.Division|
 |numerator|denominator|quotient?|
 |10       |2          |5        |
 |12.6     |3          |4.2      |

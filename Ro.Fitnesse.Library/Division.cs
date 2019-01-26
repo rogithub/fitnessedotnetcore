@@ -1,10 +1,11 @@
 ﻿using System;
+using fit;
 
 namespace Ro.Fitnesse.Library
 {
-  public class Division
+  public class Division: ColumnFixture
   {
-    private double numerator, denominator;
+    private double numerator, denominator, quotient;
 
     public void SetNumerator(double numerator)
     {
@@ -18,7 +19,8 @@ namespace Ro.Fitnesse.Library
 
     public double Quotient()
     {
-      return numerator/denominator;
+      quotient = numerator/denominator;
+      return quotient;
     }
   }
 }

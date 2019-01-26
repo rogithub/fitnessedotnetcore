@@ -2,6 +2,8 @@
 !define TEST_RUNNER {dotnet}
 !define TEST_SYSTEM {slim}
 
-!|Ro.Fitnesse.Library.HelloWorld|
-|string1|string2|Concatenate?|
-|Hello|World|Hello World|
+|eg.Division|
+|numerator|denominator|quotient?|
+|10       |2          |5        |
+|12.6     |3          |4.2      |
+|100      |4          |33       |

@@ -7,8 +7,10 @@ namespace Ro.Fitnesse.Console
     {
         static void Main(string[] args)
         {
-            var hw = new HelloWorld();
-            System.Console.WriteLine(hw.Concatenate());
+            var div = new Division();
+            div.SetNumerator(10);
+            div.SetDenominator(2);
+            System.Console.WriteLine(div.Quotient());
             System.Console.Read();
         }
     }

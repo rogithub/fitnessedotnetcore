@@ -1,4 +1,5 @@
 ﻿using System;
+using Ro.Fitnesse.Library;
 
 namespace Ro.Fitnesse.Console
 {
@@ -6,7 +7,8 @@ namespace Ro.Fitnesse.Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var hw = new HelloWorld();
+            Console.WriteLine(hw.Concatenate());
         }
     }
 }

@@ -8,9 +8,6 @@
     <PackageReference Include="FitSharp" Version="2.7.0">
         <NoWarn>NU1701</NoWarn>
     </PackageReference>
-    <PackageReference Include="NetRunner" Version="1.0.11">
-        <NoWarn>NU1701</NoWarn>
-    </PackageReference>
   </ItemGroup>
 
 </Project>

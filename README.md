@@ -17,7 +17,7 @@ $ cd fitnesse
 $ chmod +x startcommand.sh
 $ ./startcommand.sh
 ```
-## Paso 4. abrir http://localhost:8080/Division y pegar el contenido de
+## Paso 4. Ir a http://localhost:8080/Division y pegar el contenido de
 [division.txt](https://raw.githubusercontent.com/rogithub/fitnessedotnetcore/master/fitnesse/Division.txt)
 
 ## Paso 5. En http://localhost:8080/Division?properties seleccionar radio "type: Test" y dar click en test

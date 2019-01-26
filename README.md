@@ -9,7 +9,7 @@ que hace referencia a mi "home" directory. /home/ro/.nuget/packages/
 $ cd Ro.Fitnesse.Console/
 $ dotnet build
 ```
-## Paso 2 Instalar FitNesse dentro de ./fitnesse
+## Paso 2. Instalar FitNesse dentro de ./fitnesse
 [http://fitnesse.org/FitNesseDownload](http://fitnesse.org/FitNesseDownload)
 ## Paso 3. Ejecutar el server
 ```sh
